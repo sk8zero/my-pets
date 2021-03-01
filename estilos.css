@@ -333,3 +333,8 @@ header label {
   max-width: 140px;
 }
 /**/
+
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+  background: #E0E0E0;
+}
+
