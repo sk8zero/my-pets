@@ -50,27 +50,9 @@ section {
   text-align: center;
 }
 
-footer .contenedor {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-bottom: 25px;
-}
 
-.copy {
-  font-size: 20px;
-}
 
-.sociales {
-  width: 100%;
-  text-align: center;
-  font-size: 28px;
-}
 
-.sociales a {
-  color: #333;
-  text-decoration: none;
-}
 
 @media (min-width:768px) { 
   .sociales {
@@ -116,6 +98,7 @@ footer .contenedor {
 #banner img {
   width: 100%;
   height: 100%;
+  border: 4px solid #212121;
 }
 
 #banner .contenedor {
@@ -123,7 +106,7 @@ footer .contenedor {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  color: #fff;
+  color: #000000;
 }
 
 #banner h2 {
@@ -291,5 +274,62 @@ header label {
 
 .my-float{
 	margin-top:16px;
+}
+/**/
+
+/**/
+
+.Copyright{
+  text-align: center;
+  background:   #161718   ;
+  color:#fff;
+}
+
+.container-body{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  background: #202020;
+  color:#fff;
+}
+
+.colum2{
+  max-width: 500px;
+  width: 50%;
+  margin-right: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+.colum2 h2{
+  font-size: 20px;
+  margin: auto;
+}
+
+.colum2 label{
+  font-size: 16px;
+  margin-left: 0px;
+}
+
+.colum2 .row{
+  margin-top: 20px;
+  display: inline;
+}
+
+.footer a{
+ padding: 0%;
+}
+
+.row a img {
+  width: 36px;
+  height: 36px;
+  padding: 0%;
+  margin-left: 10px;
+}
+
+.row label{
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 140px;
 }
 /**/
