@@ -158,6 +158,12 @@ section {
   }
 }
 
+@media (min-width:420px) { 
+  #banner img {
+    margin-top: 20px;
+  }
+}
+
 #info {
   background: #333;
   color: #fff;
